@@ -1,0 +1,20 @@
+# Foundry build output
+out/
+cache/
+
+# Environment / secrets — NEVER commit these
+.env
+.env.*
+*.keystore
+*.pem
+
+# Editor / OS
+.DS_Store
+.vscode/
+.idea/
+
+# Node (only used for the headless UI checks, not part of the app)
+node_modules/
+
+# Local deploy receipts (Anvil + testnet runs) — commit the testnet receipt deliberately if wanted
+broadcast/
